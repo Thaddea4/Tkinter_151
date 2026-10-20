@@ -14,4 +14,6 @@ def hasil():
 tk.Label(root, text="Aplikasi Prediksi Prodi Pilihan",
          font=("Arial", 16, "bold")).pack(pady=20)
 
+frame = tk.Frame(root)
+frame.pack()
 root.mainloop()
