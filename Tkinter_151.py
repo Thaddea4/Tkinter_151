@@ -21,5 +21,7 @@ for i in range(1, 11):
     tk.Label(frame, text=f"Nilai Mata Pelajaran {i}:").grid(
         row=i, column=0, pady=5)
     tk.Entry(frame, width=20).grid(row=i, column=1, padx=10)
-
+    
+    tk.Label(root, text="Pilihan Jurusan Anda:").pack(pady=10)
+    
 root.mainloop()
