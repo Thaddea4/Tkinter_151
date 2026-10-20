@@ -26,5 +26,7 @@ for i in range(1, 11):
     
     jurusan = tk.StringVar(value="Teknologi Informasi")
     tk.OptionMenu(root, jurusan, "Teknologi Informasi").pack()
-   
+         
+    tk.Button(root, text="Hasil Prediksi",
+                command=hasil).pack(pady=20)
 root.mainloop()
