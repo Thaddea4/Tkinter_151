@@ -24,4 +24,7 @@ for i in range(1, 11):
     
     tk.Label(root, text="Pilihan Jurusan Anda:").pack(pady=10)
     
+    jurusan = tk.StringVar(value="Teknologi Informasi")
+    tk.OptionMenu(root, jurusan, "Teknologi Informasi").pack()
+   
 root.mainloop()
