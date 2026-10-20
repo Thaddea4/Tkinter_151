@@ -16,4 +16,8 @@ tk.Label(root, text="Aplikasi Prediksi Prodi Pilihan",
 
 frame = tk.Frame(root)
 frame.pack()
+
+for i in range(1, 11):
+    tk.Label(frame, text=f"Nilai Mata Pelajaran {i}:").grid(
+        row=i, column=0, pady=5)
 root.mainloop()
