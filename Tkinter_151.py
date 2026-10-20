@@ -11,4 +11,7 @@ def hasil():
     tk.Label(popup, text="Prediksi Prodi: Teknologi Informasi",
              font=("Arial", 12, "bold")).pack(pady=50)
 
+tk.Label(root, text="Aplikasi Prediksi Prodi Pilihan",
+         font=("Arial", 16, "bold")).pack(pady=20)
+
 root.mainloop()
